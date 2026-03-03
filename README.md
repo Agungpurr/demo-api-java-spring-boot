@@ -40,6 +40,7 @@ Contoh konfigurasi security:
 ```java
 .requestMatchers("/api/users/register").permitAll()
 .anyRequest().authenticated()
+```
 
 ⚙️ Setup & Installation
 1️⃣ Clone Repository
