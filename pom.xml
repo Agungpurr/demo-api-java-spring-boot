@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.4.2</version> <!-- ✅ Versi valid -->
+		<version>3.4.2</version> 
 		<relativePath/>
 	</parent>
 
@@ -20,7 +20,7 @@
 	</properties>
 
 	<dependencies>
-		<!-- ✅ Ganti webmvc → web -->
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -33,7 +33,7 @@
 			<optional>true</optional>
 		</dependency>
 
-		<!-- ✅ Ganti webmvc-test → test -->
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -67,7 +67,7 @@
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 
-		<!-- ✅ Tambahan untuk @JsonBackReference -->
+		<!-- @JsonBackReference -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
