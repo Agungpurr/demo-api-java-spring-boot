@@ -71,15 +71,15 @@ spring.h2.console.enabled=true
 
 Menggunakan Maven:
 
-mvn spring-boot:run
+```mvn spring-boot:run```
 
 Atau:
 
-./mvnw spring-boot:run
+```./mvnw spring-boot:run```
 
 Aplikasi akan berjalan di:
 
-http://localhost:8080
+```http://localhost:8080
 
 📌 API Endpoints
 ✅ Register User (Public)
@@ -91,6 +91,7 @@ Request Body:
   "username": "agung",
   "password": "123456"
 }
+```
 🔒 Endpoint Lain (Protected)
 
 Semua endpoint selain /register membutuhkan Basic Auth.
@@ -100,13 +101,13 @@ Gunakan Authorization:
 Authorization: Basic base64(username:password)
 
 Atau langsung via Postman:
-
+```
 Type: Basic Auth
 
 Username: agung
 
 Password: 123456
-
+```
 🧠 Fitur
 
 CRUD API
